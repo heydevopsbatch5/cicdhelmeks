@@ -3,7 +3,7 @@ pipeline {
     
         environment 
         {
-         registry = "212153177317.dkr.ecr.us-west-1.amazonaws.com/myimagerepo"
+         registry = "212153177317.dkr.ecr.us-west-1.amazonaws.com/myimagerepo" #aws ecr arn
         }            
 
     stages {
